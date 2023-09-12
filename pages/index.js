@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import {useSession} from "next-auth/react";
+import Link from "next/link";
 
 export default function Home() {
   const {data: session} = useSession();
